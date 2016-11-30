@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/institutes.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/institutes.txt"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/answers.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/answers.txt"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/question.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/question.txt"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/countries.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/countries.txt"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/cbsemaths12.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/cbsemaths12.txt"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/raw/cbsephysics12.txt",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/raw/cbsephysics12.txt"
+    }
+]

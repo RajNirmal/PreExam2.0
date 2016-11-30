@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_item_home" android:icon="@drawable/drawerl1"
+            android:title="Home"
+            />
+        <item android:id="@+id/nav_item_editprofile" android:icon="@drawable/drawerl2"
+            android:title="EditProfile" />
+
+        <item android:id="@+id/nav_item_invitefriends" android:icon="@drawable/drawerl3"
+            android:title="InviteFriends" />
+
+        <item android:id="@+id/nav_item_others" android:icon="@drawable/drawerl4"
+            android:title="Others" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_item_feedback" android:icon="@drawable/drawerl5"
+                android:title="FeedBack" />
+            <item android:id="@+id/nav_item_exit" android:icon="@drawable/drawerl6"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

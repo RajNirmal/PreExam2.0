@@ -1,0 +1,71 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gr"
+    tools:context=".Welcome" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="20%"
+        android:drawingCacheQuality="high"
+        android:background="@drawable/butter"
+        android:layout_centerHorizontal="true"
+        app:layout_widthPercent="50%"
+        android:id="@+id/logo" />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Hello!"
+        android:textColor="#BBDEFB"
+        android:textSize="28dp"
+        android:layout_below="@+id/password"
+        app:layout_marginTopPercent="45%"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginRightPercent="10%"/>
+    <TextView
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:text="Thank you for signing up for Key2Exam."
+        android:textAlignment="center"
+        app:layout_marginTopPercent="55%"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginRightPercent="10%"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:text="Before we get started. let's get know each other."
+        android:textAlignment="center"
+        app:layout_marginTopPercent="60%"
+        app:layout_marginLeftPercent="2%"
+        app:layout_marginRightPercent="2%"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="80%"
+        android:background="@drawable/nexte"
+        android:drawingCacheQuality="high"
+        android:layout_centerHorizontal="true"
+        app:layout_widthPercent="20%"
+        android:id="@+id/nxt" />
+
+</android.support.percent.PercentRelativeLayout>

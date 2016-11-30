@@ -1,0 +1,67 @@
+Afghanistan
+Argentina
+Australia
+Austria
+Bangladesh
+Belgium
+Bhutan
+Brazil
+Chad
+Chile
+China
+Colombia
+Congo
+Egypt
+France
+Gabon
+Gambia
+Germany
+Greece
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Japan
+Kenya
+Korea North
+Korea South
+Kuwait
+Madagascar
+Malaysia
+Maldives
+Mexico
+Nepal
+Netherlands
+New Zealand
+Oman
+Pakistan
+Qatar
+Saudi Arabia
+Sierra Leone
+Singapore
+Solomon Islands
+Somalia
+South Africa
+Sri Lanka
+Sweden
+Switzerland
+Thailand
+Trinidad & Tobago
+Turkey
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe

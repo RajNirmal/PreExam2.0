@@ -1,0 +1,27 @@
+Table 1 : Test Table
+1. Account no.
+2. Test ID (Eg: T001)
+3. Score
+4. Time taken
+5. Time stamp
+
+Table 2: User Table(Name : K2E_login)
+1. Account no.(16 digit auto generated)(Foeign Key)
+2. User ID (email)
+3. Name
+4. Password ( encoded)
+5. Secret question 1
+6. Secret question 1 answer (encoded)
+7. Secret question 2
+8. Secret question 2 answer (encoded)
+
+Table 3 : Customer table (get the details from user)
+1. Account no.(16 digit auto generated)(primary Key)
+2. First name
+3. Last name
+4. Address 1
+5. Address 2 
+6. City
+7. State
+8. Country
+9. Pin code

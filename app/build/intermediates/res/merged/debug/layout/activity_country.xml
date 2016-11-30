@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Country" >
+
+    <EditText 
+        android:id="@+id/country"
+        android:hint="Please Enter your country"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:background="#ffffff"/>
+    <Button android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/submit"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:layout_marginRight="5dp"
+        android:background="@drawable/enter"/>
+
+    <ListView
+        android:id="@+id/countryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >        
+	</ListView>
+	<Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/background"
+            android:text="Continue"
+            android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+            />
+</RelativeLayout>

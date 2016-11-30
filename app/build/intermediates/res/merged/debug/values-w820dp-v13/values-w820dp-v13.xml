@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DonutChart">
+            <attr format="dimension" name="radius"/>
+        </declare-styleable>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

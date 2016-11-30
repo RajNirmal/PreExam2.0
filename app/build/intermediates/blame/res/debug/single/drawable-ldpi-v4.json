@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/sprite_check.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.github.vajro/MaterialDesignLibrary/1.6/res/drawable-ldpi-v4/sprite_check.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/side_nav_bar.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-ldpi/side_nav_bar.xml"
+    }
+]

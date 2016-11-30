@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FabView"><attr format="reference" name="fabuless_attachTo"/><attr format="enum" name="fabuless_attachAt"><enum name="top_left" value="1"/><enum name="top_right" value="2"/><enum name="bottom_left" value="3"/><enum name="bottom_right" value="4"/></attr><attr format="enum" name="fabuless_attachType"><enum name="border" value="1"/><enum name="inside" value="2"/></attr><attr format="enum" name="fabuless_size"><enum name="normal" value="1"/><enum name="small" value="2"/></attr><attr format="dimension" name="fabuless_padding"/><attr format="integer" name="fabuless_revealAfterMs"/></declare-styleable>
+</resources>

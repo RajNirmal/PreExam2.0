@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Exam" >
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:elevation="10dp"
+        android:text="Pause"
+        android:textColor="#232323"
+        android:padding="10dp"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/clock"
+        android:text="00:00"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:elevation="10dp"
+        android:textColor="#232323"
+        android:text="Submit"
+        android:padding="10dp"
+        android:textSize="16dp" />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <WebView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/patch"
+            android:text="Question : 1"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/next">
+
+        <RelativeLayout
+            android:id="@+id/ans1"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="100%"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/one"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/outline"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="1"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/answer1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/one1"
+                android:onClick="onAnswerClick"
+                android:text="Correct Answer"
+                android:textColor="#222222" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+           android:layout_below="@+id/ans1"
+            app:layout_heightPercent="20%"
+
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/two"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/outline"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="2"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/two2"
+                android:onClick="onAnswerClick"
+                android:text="Wrong Answer"
+                android:textColor="#222222" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ans2"
+            android:layout_marginTop="10dp"
+            app:layout_heightPercent="20%"
+            >
+
+            <RelativeLayout
+                android:id="@+id/three3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/three"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/outline"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="3"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/three3"
+                android:onClick="onAnswerClick"
+                android:text="Wrong Answer"
+                android:textColor="#222222" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ans3"
+            android:layout_marginTop="10dp"
+            app:layout_heightPercent="20%"
+            >
+
+            <RelativeLayout
+                android:id="@+id/four4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/four"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/outline"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="4"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/four4"
+                android:onClick="onAnswerClick"
+                android:text="Wrong Answer"
+                android:textColor="#222222" />
+        </RelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
+
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableRight="@drawable/next"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:text="Next "
+        android:background="#ffffff"
+        android:elevation="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/left"
+        android:gravity="center_vertical"
+        android:text="Previous "
+        android:background="#ffffff"
+        android:elevation="10dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+</RelativeLayout>

@@ -1,0 +1,295 @@
+package com.example.nirmal.sportsparse;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentSender;
+import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.support.v7.app.AlertDialog;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.example.nirmal.sportsparse.Fragment_Container.User_details;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.common.SignInButton;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
+import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.plus.Plus;
+import com.google.android.gms.plus.model.people.Person;
+import com.parse.LogInCallback;
+import com.parse.Parse;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+import com.parse.SignUpCallback;
+
+
+public class Login_Main_Activity extends Activity implements ConnectionCallbacks,OnConnectionFailedListener{
+    private static final int RC_SIGN_IN = 0;
+    private static final String TAG = "MainActivity";
+    private GoogleApiClient mGoogleApiClient;
+    private boolean mIntentInProgress;
+    private boolean mSignInClicked;
+    private ConnectionResult mConnectionResult;
+    Button login;
+    SignInButton gsign;
+    public static final String PREFS_NAME = "PREFS";
+   @Override
+    protected void onCreate(Bundle savedInstanceState) {
+       SharedPreferences settings = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+       SharedPreferences.Editor editor=settings.edit();
+       super.onCreate(savedInstanceState);
+        setContentView(R.layout.main_activity);
+        mGoogleApiClient = new GoogleApiClient.Builder(this).addApi(Plus.API)
+                .addConnectionCallbacks(this).addOnConnectionFailedListener(this)
+                .addScope(Plus.SCOPE_PLUS_LOGIN).build();
+        gsign=(SignInButton)findViewById(R.id.btn_sign_in);
+        login=(Button)findViewById(R.id.sup);
+        boolean net=haveNetworkConnection();
+        if(!net){
+            new CountDownTimer(1500,1000 ) {
+                public void onFinish() {
+                    finish();
+                }
+                public void onTick(long millisUntilFinished) {
+                    Toast nocnn=Toast.makeText(getApplicationContext(),"No internet Connection",Toast.LENGTH_LONG);
+                    nocnn.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
+                    nocnn.show();
+                }
+            }.start();
+           } else {
+            Parse.enableLocalDatastore(getApplicationContext());
+            Parse.initialize(this, "0nEk3HujSvdqt9YEwyFnzhGrEr1a8EwgHifbDLod", "q71a6xX3TfaosVGA3AWYjEaBTB63hpQ1qzKwYDmP");
+            //ParseUser.logOut();
+                ParseUser currentUser = ParseUser.getCurrentUser();
+                if (currentUser != null) {
+                   // Toast.makeText(getApplicationContext(), "User registered in Parse", Toast.LENGTH_LONG).show();
+                    changeActivity(true);
+                }
+
+        }
+    gsign.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                signInWithGplus();
+            }
+        });
+    login.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            changeActivity2();
+        }
+    });
+   }
+    protected void onStart() {
+        super.onStart();
+        mGoogleApiClient.connect();
+    }
+
+    protected void onStop() {
+        super.onStop();
+        if (mGoogleApiClient.isConnected()) {
+            mGoogleApiClient.disconnect();
+        }
+    }
+    public void onConnectionFailed(ConnectionResult result) {
+        if (!result.hasResolution()) {
+            GooglePlayServicesUtil.getErrorDialog(result.getErrorCode(), this,
+                    0).show();
+            return;
+        }
+
+        if (!mIntentInProgress) {
+            // Store the ConnectionResult for later usage
+            mConnectionResult = result;
+            if (mSignInClicked) {
+                resolveSignInError();
+            }
+        }
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int responseCode,
+                                    Intent intent) {
+        if (requestCode == RC_SIGN_IN) {
+            if (responseCode != RESULT_OK) {
+                mSignInClicked = false;
+            }
+
+            mIntentInProgress = false;
+
+            if (!mGoogleApiClient.isConnecting()) {
+                mGoogleApiClient.connect();
+            }
+        }
+    }
+
+    @Override
+    public void onConnected(Bundle arg0) {
+        mSignInClicked = false;
+       // Toast.makeText(this, "User is connected!", Toast.LENGTH_LONG).show();
+        getProfileInformation();
+    }
+
+    @Override
+    public void onConnectionSuspended(int arg0) {
+        mGoogleApiClient.connect();
+
+    }
+    private void signInWithGplus() {
+        if (!mGoogleApiClient.isConnecting()) {
+            mSignInClicked = true;
+            resolveSignInError();
+        }
+        else
+            getProfileInformation();
+    }
+
+    /**
+     * Method to resolve any signin errors
+     * */
+    private void resolveSignInError() {
+        if (mConnectionResult.hasResolution()) {
+            try {
+                mIntentInProgress = true;
+                mConnectionResult.startResolutionForResult(this, RC_SIGN_IN);
+            } catch (IntentSender.SendIntentException e) {
+                mIntentInProgress = false;
+                mGoogleApiClient.connect();
+            }
+        }
+    }
+    /**
+     * Fetching user's information name, email, profile pic
+     * */
+    private void getProfileInformation() {
+        try {
+          //  Toast.makeText(Login_Activity.this, "Getting Profile",  .LENGTH_SHORT).show();
+            if (Plus.PeopleApi.getCurrentPerson(mGoogleApiClient) != null) {
+                Person currentPerson = Plus.PeopleApi
+                        .getCurrentPerson(mGoogleApiClient);
+                String personName = currentPerson.getDisplayName();
+                String personPhotoUrl = currentPerson.getImage().getUrl();
+                String personGooglePlusProfile = currentPerson.getUrl();
+                String email = Plus.AccountApi.getAccountName(mGoogleApiClient);
+                regparse(personName,email);
+                Log.e(TAG, "Name: " + personName + ", plusProfile: "
+                        + personGooglePlusProfile + ", email: " + email
+                        + ", Image: " + personPhotoUrl);
+            } else {
+                Toast.makeText(getApplicationContext(),
+                        "Person information is null", Toast.LENGTH_LONG).show();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+     void regparse(String name,String mail){
+         SharedPreferences settings = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+         SharedPreferences.Editor editor=settings.edit();
+         editor.putString("Uname", name);
+         editor.putString("Pass",mail);
+         editor.commit();
+         ParseUser newUser= new ParseUser();
+         newUser.setUsername(name);
+         newUser.setPassword(mail);
+         newUser.setEmail(mail);
+         ParseObject message = ParseObject.create("Message");
+         message.put("USER",name);
+         message.put("mail",mail);
+         newUser.signUpInBackground(new SignUpCallback() {
+             @Override
+             public void done(ParseException e) {
+                 if (e == null) {
+                     changeActivity(false);
+                 } else {
+                     AlertDialog.Builder builder = new AlertDialog.Builder(Login_Main_Activity.this);
+                     builder.setMessage(e.getMessage())
+                             .setTitle("Error Signing up")
+                             .setPositiveButton(android.R.string.ok, null);
+                     AlertDialog dialog = builder.create();
+                     dialog.show();
+
+                 }
+             }
+
+         });
+
+    }
+    private boolean haveNetworkConnection() {
+        ConnectivityManager conManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo net=conManager.getActiveNetworkInfo();
+        if(net==null)
+            return false;
+        else
+            return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_login_, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+      //  if (id == R.id.action_settings) {
+       //     return true;
+      //  }
+
+        return super.onOptionsItemSelected(item);
+    }
+public void changeActivity(boolean check){
+    if(check)
+        plogin();
+    Intent frag = new Intent(this, User_details.class);
+    startActivity(frag);
+}
+    public void changeActivity2(){
+        Intent frag = new Intent(this,Login_Activity.class);
+        startActivity(frag);
+
+    }
+    public void plogin(){
+        //Toast.makeText(getApplicationContext(), "Inside Login", Toast.LENGTH_LONG).show();
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+
+        final String name=settings.getString("Uname","no");
+        final String pass=settings.getString("Pass","no");
+       // Toast.makeText(getApplicationContext(), name+pass, Toast.LENGTH_LONG).show();
+        if(!(name.equals("no"))&&!(pass.equals("no"))){
+            ParseUser.logInInBackground(name,pass, new LogInCallback() {
+                @Override
+           // ParseUser user=ParseUser.getCurrentUser();
+                public void done(ParseUser user, ParseException e) {
+                    if (user != null) {
+                       // Toast.makeText(getApplicationContext(), "User Logged in Parse", Toast.LENGTH_LONG).show();
+                    } else {
+                      //  Toast.makeText(getApplicationContext(), "Error Occured try again later", Toast.LENGTH_LONG).show();
+                   //     finish();                }
+                }
+            }
+        });
+    }
+        else{
+            Toast.makeText(getApplicationContext(), "Shared Pref error", Toast.LENGTH_LONG).show();
+        }
+}
+}

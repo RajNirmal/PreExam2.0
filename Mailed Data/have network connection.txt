@@ -1,0 +1,30 @@
+boolean net=haveNetworkConnection();
+        if(!net){
+            new CountDownTimer(1500,1000 ) {
+                public void onFinish() {
+                    finish();
+                }
+                public void onTick(long millisUntilFinished) {
+                    Toast nocnn=Toast.makeText(getApplicationContext(),"No internet Connection",Toast.LENGTH_LONG);
+                    nocnn.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
+                    nocnn.show();
+                }
+            }.start();
+           } else {
+		Intent frag = new Intent(this, User_details.class);
+   		 startActivity(frag);
+                }
+}
+
+private boolean haveNetworkConnection() {
+        ConnectivityManager conManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo net=conManager.getActiveNetworkInfo();
+        if(net==null)
+            return false;
+        else
+            return true;
+}
+
+//In android manifest include the following
+
+//<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

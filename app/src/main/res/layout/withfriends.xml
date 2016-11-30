@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ddd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="wrap_content"
+         android:layout_alignParentLeft="true"
+    android:layout_height="match_parent">
+    <TextView android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/userPic"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:textColor="#000000"        
+        />
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinoth Harirao 90%"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        android:id="@+id/profile"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/scoreContainer"
+        >    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="50dp"                
+        android:textColor="#000000"                                
+        android:textSize="18dp"                
+        android:gravity="center_vertical|center_horizontal"                
+        android:id="@+id/score"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="50dp"        
+        android:layout_marginRight="10dp"
+        android:id="@+id/timeContainer"
+        android:layout_alignLeft="@id/tc"
+        android:layout_toLeftOf="@+id/scoreContainer"
+        android:layout_centerVertical="true"
+        >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="50dp"                
+        android:textColor="#000000"                                
+        android:textSize="18dp"
+        android:text="time"                       
+        android:gravity="center_vertical|center_horizontal"                        
+        android:id="@+id/time"/>
+    </RelativeLayout>
+
+</RelativeLayout>

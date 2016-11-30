@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/pswd.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/pswd.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/count.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/count.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/phone.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/phone.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/name.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/name.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/from_to_purple.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/from_to_purple.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_small_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ques.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/ques.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_standard_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/user.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/user.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/arrowright.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/arrowright.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/address.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/address.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/pin.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/pin.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/lock_outline.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/lock_outline.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight2.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight2.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_dark.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-mdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/iqwhite.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/iqwhite.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/quizicon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/quizicon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_focused_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_medium_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_light.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-mdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight3.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight3.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/stars.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/stars.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dexit.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dexit.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/k2ex.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/k2ex.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/location.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/location.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dra1.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dra1.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/calculator.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/calculator.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/g.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/g.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/nexte.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/nexte.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/communityic.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/communityic.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/chemic.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/chemic.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/home.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/home.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/play.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/play.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ans.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/ans.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/image.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/image.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/lead.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/lead.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/menu_icon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/menu_icon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dhome.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dhome.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/lock.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/lock.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/state.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/state.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/arrow.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/arrow.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/error.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/error.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/questionicon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/questionicon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/face.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/face.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dfeed.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dfeed.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_tall_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/duser.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/duser.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight4.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight4.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/head_image.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/head_image.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/mail.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/mail.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/detc.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/detc.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dinvite.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dinvite.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/country.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/country.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/syllabusicon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/syllabusicon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_full_open_on_phone.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-mdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/tips.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/tips.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/close.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/close.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/searchicon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/searchicon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/city.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/city.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png"
+    }
+]

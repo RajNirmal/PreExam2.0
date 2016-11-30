@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/error.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/error.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/lock.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/lock.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/lock_outline.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/lock_outline.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/phone.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/phone.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/user.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/user.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/email.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/email.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/location.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/location.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/close.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/mipmap-xhdpi/close.png"
+    }
+]

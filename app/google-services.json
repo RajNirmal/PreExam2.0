@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "130194980304",
+    "project_id": "key2exam-d8b98"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130194980304:android:2b93ffbcc47e8867",
+        "android_client_info": {
+          "package_name": "com.spintum.preexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130194980304-3nmgbna8a4rkppf119aadfl92fdtbm03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spintum.preexam",
+            "certificate_hash": "A2F3A279B27DB224C4A486DBBC92C233536C6903"
+          }
+        },
+        {
+          "client_id": "130194980304-o4hohnd739lid9dvspackjl8ct7b2t2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

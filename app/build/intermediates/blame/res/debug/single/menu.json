@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_pre_quiz.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_pre_quiz.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_country.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_country.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_instructions1.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_instructions1.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_by_school.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_by_school.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam1.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam1.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_community.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_community.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_with_friends.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_with_friends.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_analytics.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_analytics.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_instructions4.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_instructions4.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_login.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_login.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_instructions3.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_instructions3.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_home.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_home.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_forgot_pass.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_forgot_pass.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam4.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam4.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_previous_question_papers.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_previous_question_papers.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_details.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_details.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_instructions2.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_instructions2.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/menu_login_.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/menu_login_.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_current_syllabus.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_current_syllabus.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam_result.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam_result.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam3.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam3.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_instructions.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_instructions.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_find_more.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_find_more.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/drawermenu.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/drawermenu.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_iq.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_iq.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_home_page.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_home_page.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/menu/activity_exam2.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/menu/activity_exam2.xml"
+    }
+]

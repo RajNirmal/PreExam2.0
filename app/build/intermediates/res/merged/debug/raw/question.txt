@@ -1,0 +1,20 @@
+1.If a vector $r...$ is expressed in component form as $$r...=x.i...+y.j...+z.k...$$ then the magnitude of $r...$ is:
+2.If a vector $r...$ is expressed in component form as $$r...=x.i...+y.j...+z.k...$$ then x,y,z are reffered as:
+3.Find the value of $$[\table \1,\2;\3,\4] + [\table \9,\8;\7,\6]$$:
+4.Find the direction Cosines of the following equation of line : ${(x+3)/3=(4-y)/5=(z+8)/6}$:
+5.write the value of $tan(2tan^(-1) 1/5)$:
+6.Evaluate $cos^(-1)(-1/2)$:
+7.A speaks truth in 75% and B in 90%.In what percentage they contradict each in stating same fact:
+8.Find the area bounded by the curve $x^2=4y$ and the line x=4y-2:
+9.A cylinder of maximum volume is inscribed in a sphere of radius R,find the maximum volume:
+10.calculate: tan^(-1)(7/9)+tan(-1)(1/5):
+11.Find the area bounded by the curve $x^2=4y$ and the line x=4y-2:
+12.Find the equation of normal at a point on the curve $x^2=4y$ passing through (1,2):
+13.If a vector $r...$ is expressed in component form as $$r...=3x.i...+4y.j...+7z.k...$$ then the magnitude of $r...$ is:
+14.If a vector $r...$ is expressed in component form as $$r...=x.i...+y.j...+z.k...$$ then the magnitude of $r...$ is:
+15.Correct form of distributive law is :
+16.Find the equation of normal at a point on the curve $x^2=4y$ passing through (1,2):
+17.write the value of $tan(2tan^(-1) 1/5)$:
+18.4.Find the direction Cosines of the following equation of line : ${(x+3)/3=(4-y)/5=(z+8)/6}$:
+19.Evaluate $cos^(-1)(-1/2)$:
+20.If a vector $r...$ is expressed in component form as $$r...=x.i...+y.j...+z.k...$$ then the magnitude of $r...$ is:

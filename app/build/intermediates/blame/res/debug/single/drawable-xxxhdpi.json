@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/head_image.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xxxhdpi/head_image.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/powered_by_google_dark.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-xxxhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/powered_by_google_light.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-xxxhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/from_to_purple.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xxxhdpi/from_to_purple.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xxxhdpi/menu_icon.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/image.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xxxhdpi/image.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/stars.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xxxhdpi/stars.png"
+    }
+]

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.0.0_eec9ae5ceb917ab49cc48b08015602c643ba5c3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="de44758258139805d12d5d023b04f58e2010dacc">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.3.0_ad4a9b6ba3643b439dade6bbc2fa37016a6507ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAIIVA\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_4e74bab5e7a49f39174015e7571aacba865105fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.3.0_9655fb09c7488b0013277cf0a56b16f93b72f894\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.3.0_59af5157b1ff7647a19614ed623414bc9cbbf89e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="de30b2563dc058bb91946a9909f78924423a6f19">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1609c713687e1a6cc5ae1853bd53686bb29d59ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.http.legacy_08e75b3ba331e8fc00ebb76dffa3a659d647f694\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.3.0_ed0365ab3e4b86a166425b252245a16d0ba3861c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.3.0_b5e9d8d0220269ceaf526475642929ca726614e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\Parse-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.6.0_e81d398debb5dc86b9ae6be00c192567f93d2762\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_ef0529e9a073c852d2005c7a085d5be571644172\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_c2c090b4f7b6bbec26871963733834002045b6a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_ff05c6f1dbcd869ddec5fd9bbd5f7f869a9671e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.ToxicBakery.viewpager.transforms\view-pager-transforms\1.2.32\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.ToxicBakery.viewpager.transforms-view-pager-transforms-1.2.32_64b114baaf6268f2671f9c4f6b9d0c3b16d02749\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.3.0_194c90d7b9c41966334bb8eeb0cc50e9d0225be4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_91af4225a53e28f67066e7eb1a3ca0f4716a99a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.markushi-circlebutton-1.1_7cf61e83082490a3a65e270c5aeac0bd70947022\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\fr.avianey.com.viewpagerindicator\library\2.4.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bae64da9140d1e78edb6f28a1b4c8831aac4ab88">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\fr.avianey.com.viewpagerindicator-library-2.4.1.1_09e5c3adeda595edecb20772bfa2e3a9c94c3bfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_1fa9d13d4782b99738a38ca696dc67f9771f89f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_1045a262b4eee645468a0f90117e1206b894783c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.loopeer.library\cardstack\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e19e10d7efa00a27f0446a3e7a7b02d6235860b1">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.loopeer.library-cardstack-1.0.1_0c6daeb41f6eb21c80d702cd629f2ceff1fa284d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_69af83260593f5e37caf9715b2ae5097c57c1002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.github.zurche\plain-pie\v0.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6428323fc97324fb5444c2fabe73e5340aecf584">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.zurche-plain-pie-v0.1.1_feb04608517c8e7476d53f1cc2f0a127304bf2eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.github.beworker\fabuless\0d29e51478\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ddef3d9112a36f549bd6fc9e43b99d75989339cd">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.beworker-fabuless-0d29e51478_0781bba4d6c7c393ef9c5d58632cbc546e5cefdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAIIVA\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_11b32fb8c4d97567706109a2aa41284b762cccc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.3.0_8dbc900df0179dfc28255e6d7d5976ea31ce15a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.github.vajro\MaterialDesignLibrary\1.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b083f9ed76344c2f2b227c56d597f6d08d3fefc8">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.vajro-MaterialDesignLibrary-1.6_0fc3d7c6c1a5b4a6b3b2e11b5f65fd622813528e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.3.0_0ba2cef8a247740b6e5c2543157db233e225f1f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_efe1b8b7d0bcbfc6db3881063545e4237175d3ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_c76e58b66eff3d7df2102fac299b236653317c88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAIIVA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_db37e457ac7dec0d5f279187b86fbb0dd9a26d6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.4.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a06b0579dbe59192ef460e3de04657720925d05b">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.amlcurran.showcaseview-library-5.4.3_ea27efd51a5d07968869ae0b29e528d6fd2c5590\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_6da8492e3140421264e463dfd2e9e42c00cb6274\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_8ae9d97f7ab9245c7548647f3c3d0fae7f88f183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.3.0_5107897b42e309e6dfc3ff831c119c1c9de8fbbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_d4c79c8abeeba2d21645e9df4d65c57e00bf956b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="390039001ba3d9f37d404f33580f8b58daaae695">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b8e1aa1c7dca11cdb2cd14d6e3cce9c115dcee03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_b0f35c43141368e0eb5c77bf62a5f7309ba9f1ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\libs\easyandroidanimationslibrary-v0.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="81d390299222db75e62708400b299080d122b28b">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\2\easyandroidanimationslibrary-v0.5_8461e387ef7d7044972574edd725d477fd72c0a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_3ea4f43f0190216c18307b4bc573dc630d7e052c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PreExam2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.3.0_ac076b61845c563d72b0da39c48ff2235f99a78b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAIIVA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\PreExam2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_10b4190b2f5ff69e6e376e9d0c6805f84518e38b\classes.dex" />
+    </item>
+
+</items>
