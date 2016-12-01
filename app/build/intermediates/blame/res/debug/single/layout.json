@@ -156,6 +156,10 @@
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/answer_holders.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/answer_holders.xml"
+    },
+    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
     },
