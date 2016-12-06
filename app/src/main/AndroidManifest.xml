@@ -71,6 +71,7 @@
             android:name=".Exam"
             android:label="@string/title_activity_exam"></activity>
         <activity android:name=".Exam_cards"/>
+
         <activity
             android:name=".Exam1"
             android:label="@string/title_activity_exam1"></activity>

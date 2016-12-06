@@ -1,8 +1,12 @@
 package com.spintum.preexam;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,18 +26,43 @@ import org.w3c.dom.Text;
 public class Exam_cards extends Activity{
     TabLayout tabs;
     TextView showText;
+    private View swipeListingView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_cards);
         tabs = (TabLayout)findViewById(R.id.exam_tablayout);
-        showText = (TextView)findViewById(R.id.text_test);
-        tabs.addTab(tabs.newTab().setText("Tab1").setTag("1"));
-        tabs.addTab(tabs.newTab().setText("Tab2").setTag("2"));
-        tabs.addTab(tabs.newTab().setText("Tab3").setTag("3"));
+        showText = (TextView)findViewById(R.id.question_holder);
+        for(int i=0; i<=19 ; i++)
+            tabs.addTab(tabs.newTab().setText(String.valueOf(i+1)).setTag(String.valueOf(i)));
+        //tabs.addTab(tabs.newTab().setText("Tab2").setTag("2"));
+        //tabs.addTab(tabs.newTab().setText("Tab3").setTag("3"));
         tabs.setOnTabSelectedListener(tabSelectedListener);
+        swipeListingView = findViewById(R.id.test_swiping_view);
+        swipeListingView.setOnTouchListener(new OnSwipingListener(getApplicationContext())
+            {
+                @Override
+                public void onSwipeLeft() {
+                    super.onSwipeLeft();
+                    Toast.makeText(getApplicationContext(),"Swiped Left",Toast.LENGTH_SHORT).show();
+                    int i = tabs.getSelectedTabPosition();
+                    if(i!=0)
+                        changeTab(i-1);
+                }
 
+                @Override
+                public void onSwipeRight() {
+                    super.onSwipeRight();
+                    Toast.makeText(getApplicationContext(),"Swiped Right",Toast.LENGTH_SHORT).show();
+                    int i = tabs.getSelectedTabPosition();
+                    if(i!=20)
+                        changeTab(i+1);
+                }
+            });
 
+    }
+    protected void changeTab(int x){
+        tabs.getTabAt(x).select();
     }
     TabLayout.OnTabSelectedListener tabSelectedListener = new TabLayout.OnTabSelectedListener() {
         @Override

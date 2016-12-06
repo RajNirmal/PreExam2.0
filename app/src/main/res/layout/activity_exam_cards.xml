@@ -14,7 +14,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/exam_tablayout"
-    app:tabMode="scrollable"/>
+    app:tabMode="scrollable"
+    app:tabMaxWidth="50dp"/>
+  <LinearLayout
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/test_swiping_view"
+      android:orientation="vertical">
   <android.support.v7.widget.CardView
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
@@ -41,3 +49,4 @@
     android:layout_weight="5"
     layout="@layout/answer_holders"/>
 </LinearLayout>
+  </LinearLayout>

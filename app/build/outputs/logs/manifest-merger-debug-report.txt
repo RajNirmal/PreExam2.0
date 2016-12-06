@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:2:1-155:12
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:2:1-156:12
 	package
 		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml
@@ -115,7 +115,7 @@ ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:31:
 	android:name
 		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:31:22-71
 application
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:33:5-153:19
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:33:5-154:19
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] /media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.4.0] /media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
@@ -216,154 +216,154 @@ ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:73:
 	android:name
 		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:73:19-45
 activity#com.spintum.preexam.Exam1
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:74:9-76:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:75:9-77:69
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:76:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:77:13-57
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:75:13-34
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:76:13-34
 activity#com.spintum.preexam.Exam2
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:77:9-79:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:78:9-80:69
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:79:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:80:13-57
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:78:13-34
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:79:13-34
 activity#com.spintum.preexam.Exam3
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:80:9-82:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:81:9-83:69
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:82:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:83:13-57
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:81:13-34
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:82:13-34
 activity#com.spintum.preexam.Exam4
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:83:9-85:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:84:9-86:69
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:85:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:86:13-57
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:84:13-34
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:85:13-34
 activity#com.spintum.preexam.Login
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:86:9-88:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:87:9-89:69
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:88:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:89:13-57
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:87:13-34
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:88:13-34
 activity#com.spintum.preexam.PreviousQuestionPapers
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:89:9-91:88
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:90:9-92:88
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:91:13-76
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:92:13-76
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:90:13-51
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:91:13-51
 activity#com.spintum.preexam.IQ
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:92:9-94:66
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:93:9-95:66
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:94:13-54
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:95:13-54
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:93:13-31
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:94:13-31
 activity#com.spintum.preexam.ExamResult
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:95:9-97:75
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:96:9-98:75
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:97:13-63
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:98:13-63
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:96:13-39
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:97:13-39
 activity#com.spintum.preexam.Analytics
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:98:9-100:73
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:99:9-101:73
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:100:13-61
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:101:13-61
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:99:13-38
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:100:13-38
 activity#com.spintum.preexam.Instructions
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:101:9-103:76
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:102:9-104:76
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:103:13-64
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:104:13-64
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:102:13-41
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:103:13-41
 activity#com.spintum.preexam.Instructions1
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:104:9-106:77
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:105:9-107:77
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:106:13-65
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:107:13-65
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:105:13-42
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:106:13-42
 activity#com.spintum.preexam.Instructions2
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:107:9-109:77
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:108:9-110:77
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:109:13-65
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:110:13-65
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:108:13-42
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:109:13-42
 activity#com.spintum.preexam.Instructions3
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:110:9-112:77
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:111:9-113:77
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:112:13-65
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:113:13-65
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:111:13-42
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:112:13-42
 activity#com.spintum.preexam.Instructions4
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:113:9-115:77
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:114:9-116:77
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:115:13-65
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:116:13-65
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:114:13-42
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:115:13-42
 activity#org.achartengine.GraphicalActivity
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:116:9-71
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:117:9-71
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:116:19-68
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:117:19-68
 activity#com.spintum.preexam.WithFriends
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:117:9-119:76
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:118:9-120:76
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:119:13-64
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:120:13-64
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:118:13-40
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:119:13-40
 activity#com.spintum.preexam.BySchool
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:120:9-122:73
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:121:9-123:73
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:122:13-61
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:123:13-61
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:121:13-37
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:122:13-37
 activity#com.spintum.preexam.FindMore
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:123:9-125:73
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:124:9-126:73
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:125:13-61
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:126:13-61
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:124:13-37
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:125:13-37
 activity#com.spintum.preexam.CustomerDetails
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:126:9-128:51
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:127:9-129:51
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:128:13-39
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:129:13-39
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:127:13-44
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:128:13-44
 activity#com.spintum.preexam.ForgotPass
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:129:9-131:75
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:130:9-132:75
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:131:13-63
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:132:13-63
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:130:13-39
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:131:13-39
 meta-data#com.google.android.gms.version
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:134:9-136:69
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:135:9-137:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] /media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:136:13-66
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:137:13-66
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:135:13-58
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:136:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:137:9-139:55
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:138:9-140:55
 	android:value
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:139:13-52
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:140:13-52
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:138:13-58
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:139:13-58
 activity#com.facebook.FacebookActivity
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:141:9-145:75
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:142:9-146:75
 	android:label
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:144:13-45
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:145:13-45
 	android:configChanges
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:143:13-96
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:144:13-96
 	android:theme
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:145:13-72
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:146:13-72
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:142:13-57
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:143:13-57
 provider#com.facebook.FacebookContentProvider
-ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:147:9-150:39
+ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:148:9-151:39
 	android:authorities
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:149:13-79
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:150:13-79
 	android:exported
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:150:13-36
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:151:13-36
 	android:name
-		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:148:13-64
+		ADDED from /media/win/Android Apps/PreExam2/app/src/main/AndroidManifest.xml:149:13-64
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
 	android:name
