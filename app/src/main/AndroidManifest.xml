@@ -40,11 +40,11 @@
         <activity
             android:name=".Slide"
             android:label="@string/app_name">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name=".Greeting"
@@ -70,7 +70,13 @@
         <activity
             android:name=".Exam"
             android:label="@string/title_activity_exam"></activity>
-        <activity android:name=".Exam_cards"/>
+        <activity android:name=".Exam_cards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
 
         <activity
             android:name=".Exam1"

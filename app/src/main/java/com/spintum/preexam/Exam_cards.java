@@ -2,11 +2,14 @@ package com.spintum.preexam;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,14 +25,21 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by nirmal on 30/11/16.
  */
 
-public class Exam_cards extends Activity{
+public class Exam_cards extends Activity implements View.OnClickListener{
     TabLayout tabs;
-    TextView showText,Opt1,Opt2,Opt3,Opt4;
+    TextView showText;
+    View Opt1,Opt2,Opt3,Opt4;
+    TextView Opt1Text, Opt2Text,Opt3Text,Opt4Text;
+    Button Opt1Button,Opt2Button,Opt3Button,Opt4Button;
     String Questions[],Answer1[],Answer2[],Answer3[],Answer4[],Correct[];
+    int Score[],Select[];
     private View swipeListingView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,16 +47,32 @@ public class Exam_cards extends Activity{
         setContentView(R.layout.activity_exam_cards);
         tabs = (TabLayout)findViewById(R.id.exam_tablayout);
         showText = (TextView)findViewById(R.id.question_holder);
-        Opt1 = (TextView)findViewById(R.id.answer_1_text);
-        Opt2 = (TextView)findViewById(R.id.answer_2_text);
-        Opt3 = (TextView)findViewById(R.id.answer_3_text);
-        Opt4 = (TextView)findViewById(R.id.answer_4_text);
+        Opt1Text = (TextView)findViewById(R.id.answer_1_text);
+        Opt2Text = (TextView)findViewById(R.id.answer_2_text);
+        Opt3Text = (TextView)findViewById(R.id.answer_3_text);
+        Opt4Text = (TextView)findViewById(R.id.answer_4_text);
+        Opt1Button = (Button)findViewById(R.id.answer_1_button);
+        Opt2Button = (Button)findViewById(R.id.answer_2_button);
+        Opt3Button = (Button)findViewById(R.id.answer_3_button);
+        Opt4Button = (Button)findViewById(R.id.answer_4_button);
+        Opt1 = findViewById(R.id.answer_1);
+        Opt2 = findViewById(R.id.answer_2);
+        Opt3 = findViewById(R.id.answer_3);
+        Opt4 = findViewById(R.id.answer_4);
+        Opt1.setOnClickListener(this);
+        Opt2.setOnClickListener(this);
+        Opt3.setOnClickListener(this);
+        Opt4.setOnClickListener(this);
         Questions = new String[20];
         Answer1 = new String[20];
         Answer2 = new String[20];
         Answer3 = new String[20];
         Answer4 = new String[20];
         Correct = new String[20];
+        Score = new int[20];
+        Select = new int[20];
+        Arrays.fill(Score,-1);
+        Arrays.fill(Select,-1);
         for(int i=0; i<=19 ; i++)
             tabs.addTab(tabs.newTab().setText(String.valueOf(i+1)).setTag(String.valueOf(i)));
         //tabs.addTab(tabs.newTab().setText("Tab2").setTag("2"));
@@ -84,6 +110,7 @@ public class Exam_cards extends Activity{
         public void onTabSelected(TabLayout.Tab tab) {
             String i = tab.getTag().toString();
             setContentofText(i);
+            previouslySelected();
         }
 
         @Override
@@ -99,12 +126,124 @@ public class Exam_cards extends Activity{
     void setContentofText(String s){
         int x = Integer.valueOf(s);
         showText.setText(Questions[x]);
-        Opt1.setText(Answer1[x]);
-        Opt2.setText(Answer2[x]);
-        Opt3.setText(Answer3[x]);
-        Opt4.setText(Answer4[x]);
+        Opt1Text.setText(Answer1[x]);
+        Opt2Text.setText(Answer2[x]);
+        Opt3Text.setText(Answer3[x]);
+        Opt4Text.setText(Answer4[x]);
 
     }
+    private void deSelectAll(){
+        Opt1Text.setTextColor(Color.parseColor("#000000"));
+        Opt2Text.setTextColor(Color.parseColor("#000000"));
+        Opt3Text.setTextColor(Color.parseColor("#000000"));
+        Opt4Text.setTextColor(Color.parseColor("#000000"));
+        Opt1Button.setBackgroundColor(Color.parseColor("#FF3D00"));
+        Opt2Button.setBackgroundColor(Color.parseColor("#FF3D00"));
+        Opt3Button.setBackgroundColor(Color.parseColor("#FF3D00"));
+        Opt4Button.setBackgroundColor(Color.parseColor("#FF3D00"));
+
+    }
+    private void previouslySelected(){
+        int i = tabs.getSelectedTabPosition();
+        i++;
+        int x = Select[i];
+        deSelectAll();
+        switch (x){
+            case 1:
+                Opt1Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt1Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 2:
+                Opt2Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt2Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 3:
+                Opt3Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt3Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 4:
+                Opt4Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt4Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            default:
+                deSelectAll();
+                break;
+
+    }
+    }
+    private void selectButton(int x){
+        switch (x){
+            case 1:
+                Opt1Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt1Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 2:
+                Opt2Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt2Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 3:
+                Opt3Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt3Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+            case 4:
+                Opt4Button.setBackgroundColor(Color.parseColor("#0288D1"));
+                Opt4Text.setTextColor(Color.parseColor("#0288D1"));
+                break;
+        }
+    }
+
+    @Override
+    public void onClick(View view) {
+        int i  = tabs.getSelectedTabPosition();
+        i++;
+        deSelectAll();
+        if(view == Opt1){
+            selectButton(1);
+            Select[i] = 1;
+            if(Correct[i].equals("A")) {
+                Score[i] = 1;
+                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Score[i] = 0;
+                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+            }
+        }
+        else if (view == Opt2) {
+            Select[i] = 2;
+            selectButton(2);
+            if (Correct[i].equals("B")) {
+                Score[i] = 1;
+                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+            } else {
+                Score[i] = 0;
+                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+            }
+        }
+        else if (view == Opt3) {
+            Select[i] = 3;
+            selectButton(3);
+            if (Correct[i].equals("C")) {
+                Score[i] = 1;
+                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+            } else {
+                Score[i] = 0;
+                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+            }
+        }
+        else {
+            Select[i] = 4;
+            selectButton(4);
+            if (Correct[i].equals("D")) {
+                Score[i] = 1;
+                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+            } else {
+                Score[i] = 0;
+                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+            }
+        }
+        }
+
     void getQuestions(){
         StringRequest sq = new StringRequest(Request.Method.POST, VariableHolder.TestURL,
                 new Response.Listener<String>() {
@@ -142,12 +281,12 @@ public class Exam_cards extends Activity{
     }
     private void setFirstTabsData(){
         showText.setText(Questions[0]);
-        Opt1.setText(Answer1[0]);
-        Opt2.setText(Answer2[0]);
-        Opt3.setText(Answer3[0]);
-        Opt4.setText(Answer4[0]);
+        Opt1Text.setText(Answer1[0]);
+        Opt2Text.setText(Answer2[0]);
+        Opt3Text.setText(Answer3[0]);
+        Opt4Text.setText(Answer4[0]);
     }
-   private void writeTheDamnData(){
+   private void writeTheData(){
         Toast.makeText(getApplicationContext(), "Writing the data now",Toast.LENGTH_SHORT).show();
         StringBuilder sb = new StringBuilder();
         sb.append(Questions[0]);

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 01 20:57:52 IST 2016
+#Wed Dec 07 19:11:10 IST 2016
 100.set=ANDROID_RESOURCE
 57.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_instructions4.xml
 145.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/klg.jpg
@@ -199,7 +199,7 @@
 49.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/anim/design_snackbar_in.xml
 137.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
 613.set=ANDROID_RESOURCE
-615.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png
+615.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png
 468.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 247.set=ANDROID_RESOURCE
 530.file=/media/win/Android Apps/PreExam2/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/javamail.default.address.map
@@ -1021,7 +1021,7 @@
 292.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/layout/messenger_button_send_blue_small.xml
 226.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 499.set=ANDROID_RESOURCE
-124.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+124.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
 53.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 141.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 602.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
@@ -1315,7 +1315,7 @@ count=814
 48.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/g.png
 136.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png
 603.set=ANDROID_RESOURCE
-614.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png
+614.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png
 467.base=/media/win/Android Apps/PreExam2/app/build/intermediates/assets/debug
 382.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 237.set=JAVA_RESOURCE
@@ -2131,7 +2131,7 @@ count=814
 291.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/menu/activity_exam.xml
 489.set=ANDROID_RESOURCE
 225.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
-123.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+123.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 52.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 140.base=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_
 601.file=/media/win/Android Apps/PreExam2/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view.xml
