@@ -5,11 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-  <!--  <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/dummy_test_text"
-        android:textColor="@color/black"/>-->
+
 <android.support.design.widget.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -48,5 +44,32 @@
     android:layout_height="0dp"
     android:layout_weight="5"
     layout="@layout/answer_holders"/>
-</LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="CountDOwn Timwer"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/count_down_text"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/skip_button"
+          android:text="I Give Up"
+          android:gravity="center"
+          style="@style/Widget.AppCompat.Button.Colored"
+          android:background="@color/blue"
+          android:layout_weight="1"
+          android:layout_gravity="center"
+          android:layout_marginLeft="40dp"/>
+  </LinearLayout>
+  </LinearLayout>
   </LinearLayout>

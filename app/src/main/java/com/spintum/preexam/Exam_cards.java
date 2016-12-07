@@ -2,8 +2,10 @@ package com.spintum.preexam;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.design.widget.TabLayout;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -36,11 +38,12 @@ public class Exam_cards extends Activity implements View.OnClickListener{
     TabLayout tabs;
     TextView showText;
     View Opt1,Opt2,Opt3,Opt4;
-    TextView Opt1Text, Opt2Text,Opt3Text,Opt4Text;
-    Button Opt1Button,Opt2Button,Opt3Button,Opt4Button;
+    TextView Opt1Text, Opt2Text,Opt3Text,Opt4Text,CountDownText;
+    Button Opt1Button,Opt2Button,Opt3Button,Opt4Button,GiveUp;
     String Questions[],Answer1[],Answer2[],Answer3[],Answer4[],Correct[];
     int Score[],Select[];
     private View swipeListingView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,10 +54,12 @@ public class Exam_cards extends Activity implements View.OnClickListener{
         Opt2Text = (TextView)findViewById(R.id.answer_2_text);
         Opt3Text = (TextView)findViewById(R.id.answer_3_text);
         Opt4Text = (TextView)findViewById(R.id.answer_4_text);
+        CountDownText = (TextView)findViewById(R.id.count_down_text);
         Opt1Button = (Button)findViewById(R.id.answer_1_button);
         Opt2Button = (Button)findViewById(R.id.answer_2_button);
         Opt3Button = (Button)findViewById(R.id.answer_3_button);
         Opt4Button = (Button)findViewById(R.id.answer_4_button);
+        GiveUp = (Button)findViewById(R.id.skip_button);
         Opt1 = findViewById(R.id.answer_1);
         Opt2 = findViewById(R.id.answer_2);
         Opt3 = findViewById(R.id.answer_3);
@@ -73,19 +78,24 @@ public class Exam_cards extends Activity implements View.OnClickListener{
         Select = new int[20];
         Arrays.fill(Score,-1);
         Arrays.fill(Select,-1);
+        writeTheData();
         for(int i=0; i<=19 ; i++)
             tabs.addTab(tabs.newTab().setText(String.valueOf(i+1)).setTag(String.valueOf(i)));
-        //tabs.addTab(tabs.newTab().setText("Tab2").setTag("2"));
-        //tabs.addTab(tabs.newTab().setText("Tab3").setTag("3"));
         tabs.setOnTabSelectedListener(tabSelectedListener);
         swipeListingView = findViewById(R.id.test_swiping_view);
         getQuestions();
+        GiveUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),ExamResult.class);
+                startActivity(i);
+            }
+        });
         swipeListingView.setOnTouchListener(new OnSwipingListener(getApplicationContext())
             {
                 @Override
                 public void onSwipeLeft() {
                     super.onSwipeLeft();
-                   // Toast.makeText(getApplicationContext(),"Swiped Left",Toast.LENGTH_SHORT).show();
                     int i = tabs.getSelectedTabPosition();
                     if(i!=0)
                         changeTab(i-1);
@@ -94,7 +104,6 @@ public class Exam_cards extends Activity implements View.OnClickListener{
                 @Override
                 public void onSwipeRight() {
                     super.onSwipeRight();
-                 //   Toast.makeText(getApplicationContext(),"Swiped Right",Toast.LENGTH_SHORT).show();
                     int i = tabs.getSelectedTabPosition();
                     if(i!=20)
                         changeTab(i+1);
@@ -111,6 +120,7 @@ public class Exam_cards extends Activity implements View.OnClickListener{
             String i = tab.getTag().toString();
             setContentofText(i);
             previouslySelected();
+            updateTabColors();
         }
 
         @Override
@@ -142,6 +152,12 @@ public class Exam_cards extends Activity implements View.OnClickListener{
         Opt3Button.setBackgroundColor(Color.parseColor("#FF3D00"));
         Opt4Button.setBackgroundColor(Color.parseColor("#FF3D00"));
 
+    }
+    private void updateTabColors(){
+        for(int i = 0 ; i<20 ; i++ ){
+            //if(Select[i]!=-1)
+                //tabs.setTabTextColors(f44336));
+        }
     }
     private void previouslySelected(){
         int i = tabs.getSelectedTabPosition();
@@ -286,20 +302,30 @@ public class Exam_cards extends Activity implements View.OnClickListener{
         Opt3Text.setText(Answer3[0]);
         Opt4Text.setText(Answer4[0]);
     }
-   private void writeTheData(){
-        Toast.makeText(getApplicationContext(), "Writing the data now",Toast.LENGTH_SHORT).show();
-        StringBuilder sb = new StringBuilder();
-        sb.append(Questions[0]);
-        sb.append("\n");
-        sb.append(Answer1[0]);
-       sb.append("\n");
-        sb.append(Answer2[0]);
-       sb.append("\n");
-        sb.append(Answer3[0]);
-       sb.append("\n");
-        sb.append(Answer4[0]);
-        showText.setText(sb.toString());
+   private void writeTheData() {
+       CountDownTimer CDT = new CountDownTimer(1200000, 1000) {
+           @Override
+           public void onTick(long l) {
+               if (((l / 1000) % 60) < 10) {
+                   CountDownText.setText("Time: "
+                           + (l / 1000) / 60 + ":0"
+                           + ((l / 1000) % 60));
+               } else {
+                   CountDownText.setText("Time: "
+                           + (l / 1000) / 60 + ":"
+                           + ((l / 1000) % 60));
+               }
 
+
+           }
+
+           @Override
+           public void onFinish() {
+                Intent intent = new Intent(getApplicationContext(),ExamResult.class);
+                startActivity(intent);
+           }
+       };
+       CDT.start();
     }
 }
 
