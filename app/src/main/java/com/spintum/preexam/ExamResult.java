@@ -269,7 +269,7 @@ public class ExamResult extends AppCompatActivity {
 		uploadData(sb.toString() , id);
 	}
 	public void uploadData(final String test_id, final String User_id){
-		StringRequest rq = new StringRequest(Request.Method.POST, VariableHolder.EchoTestURL,
+		StringRequest rq = new StringRequest(Request.Method.POST, VariableHolder.TestURL,
 				new Response.Listener<String>() {
 					@Override
 					public void onResponse(String s) {

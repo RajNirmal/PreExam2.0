@@ -48,7 +48,7 @@ public class VariableHolder {
     final static String ReturnIDURL="http://www.mazelon.com/preexam/preexam/return_id.php";
     final static String GetIDURL="http://www.mazelon.com/preexam/preexam/K2_Insert.php" ;
     final static String LoginURL ="http://www.mazelon.com/preexam/preexam/login.php" ;
-    final static String EchoTestURL="http://www.mazelon.com/preexam/preexam/Get_Questions_Maths.php" ;
+    final static String TestURL="http://www.mazelon.com/preexam/preexam/Get_Questions_Maths.php" ;
     final static String InsertUserDetailsURL="http://www.mazelon.com/preexam/preexam/K2_Insert_Customer.php" ;
     final static String TestEntryURL = "http://www.mazelon.com/preexam/preexam/K2_Insert_Test_Results.php" ;
 
