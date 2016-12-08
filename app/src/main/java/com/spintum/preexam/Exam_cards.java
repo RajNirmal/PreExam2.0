@@ -11,6 +11,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -154,9 +155,11 @@ public class Exam_cards extends Activity implements View.OnClickListener{
 
     }
     private void updateTabColors(){
-        for(int i = 0 ; i<20 ; i++ ){
-            //if(Select[i]!=-1)
-                //tabs.setTabTextColors(f44336));
+        LinearLayout tabsContainer = (LinearLayout) tabs.getChildAt(0);
+        for (int i = 0; i < tabs.getTabCount(); i++) {
+            LinearLayout item = (LinearLayout) tabsContainer.getChildAt(i);
+            TextView tv = (TextView) item.getChildAt(1);
+            tv.setTextColor(Select[i] == -1 ? Color.BLACK : Color.BLUE);
         }
     }
     private void previouslySelected(){
