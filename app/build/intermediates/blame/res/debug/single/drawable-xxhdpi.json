@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_tall_off_client.png",

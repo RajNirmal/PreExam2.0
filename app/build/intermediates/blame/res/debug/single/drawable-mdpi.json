@@ -32,12 +32,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/from_to_purple.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_small_off_client.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ques.png",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/ques.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_small_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_standard_off_client.png",
@@ -80,12 +80,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/lock_outline.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight2.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight2.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_dark.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-mdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight2.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight2.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_focused.9.png",
@@ -108,24 +108,24 @@
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_medium_off_client.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_medium_off_client.png"
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_light.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-mdpi/powered_by_google_light.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_light.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-mdpi/powered_by_google_light.png"
-    },
-    {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight3.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight3.png"
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_medium_off_client.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-mdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/stars.png",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/stars.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dralight3.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dralight3.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_normal.9.png",
@@ -152,12 +152,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dra1.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dra1.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/calculator.png",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/calculator.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/dra1.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-mdpi/dra1.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_pressed.9.png",

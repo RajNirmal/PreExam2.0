@@ -32,6 +32,10 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/activity_exam_cards.xml"
     },
     {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/activity_exam_cards_mathview.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/activity_exam_cards_mathview.xml"
+    },
+    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_small.xml"
     },
@@ -240,6 +244,10 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/activity_get_customer_details.xml"
     },
     {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/layout_mathview.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/layout_mathview.xml"
+    },
+    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
     },
@@ -326,6 +334,10 @@
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/fragment_statistics.xml",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/fragment_statistics.xml"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/answer_holders_mathview.xml",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/layout/answer_holders_mathview.xml"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",

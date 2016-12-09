@@ -70,13 +70,14 @@
         <activity
             android:name=".Exam"
             android:label="@string/title_activity_exam"></activity>
-        <activity android:name=".Exam_cards">
+        <activity android:name=".Testing_MathView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             </activity>
+        <activity android:name=".Exam_cards"/>
 
         <activity
             android:name=".Exam1"

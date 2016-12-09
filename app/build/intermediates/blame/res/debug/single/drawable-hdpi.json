@@ -4,20 +4,20 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/subject3.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/phone.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/phone.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/clck.png",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/clck.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/phone.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/phone.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/sdot3.png",
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/sdot3.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png",
@@ -72,12 +72,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/subject4.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/subject1.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/subject1.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_selected_focused_holo.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-hdpi/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/subject1.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/subject1.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_plusone_small_off_client.png",
@@ -128,12 +128,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/folder.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/patch.9.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/patch.9.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/patch.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-hdpi/patch.9.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png",

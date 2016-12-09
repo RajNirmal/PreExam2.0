@@ -24,16 +24,16 @@
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1.1/res/drawable-xhdpi/vpi__tab_unselected_focused_holo.9.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/image.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xhdpi/image.png"
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/t3.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xhdpi/t3.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_plus_signin_btn_text_light_disabled.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xhdpi/common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/t3.png",
-        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xhdpi/t3.png"
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/image.png",
+        "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xhdpi/image.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
@@ -56,12 +56,12 @@
         "source": "/media/win/Android Apps/PreExam2/app/src/main/res/drawable-xhdpi/from_to_purple.png"
     },
     {
-        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xhdpi/common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_text_light_pressed.9.png",
         "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xhdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/media/win/Android Apps/PreExam2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xhdpi/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/media/win/Android Apps/PreExam2/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_icon_light_pressed.9.png",

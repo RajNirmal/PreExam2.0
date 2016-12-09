@@ -164,7 +164,8 @@ public class Exam_cards extends Activity implements View.OnClickListener{
     }
     private void previouslySelected(){
         int i = tabs.getSelectedTabPosition();
-        i++;
+       // i++;
+
         int x = Select[i];
         deSelectAll();
         switch (x){
@@ -214,18 +215,18 @@ public class Exam_cards extends Activity implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         int i  = tabs.getSelectedTabPosition();
-        i++;
+      //  i++;
         deSelectAll();
         if(view == Opt1){
             selectButton(1);
             Select[i] = 1;
             if(Correct[i].equals("A")) {
                 Score[i] = 1;
-                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+             //   Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
             }
             else {
                 Score[i] = 0;
-                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
             }
         }
         else if (view == Opt2) {
@@ -233,10 +234,10 @@ public class Exam_cards extends Activity implements View.OnClickListener{
             selectButton(2);
             if (Correct[i].equals("B")) {
                 Score[i] = 1;
-                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
             } else {
                 Score[i] = 0;
-                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
             }
         }
         else if (view == Opt3) {
@@ -244,10 +245,10 @@ public class Exam_cards extends Activity implements View.OnClickListener{
             selectButton(3);
             if (Correct[i].equals("C")) {
                 Score[i] = 1;
-                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
             } else {
                 Score[i] = 0;
-                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
             }
         }
         else {
@@ -255,10 +256,10 @@ public class Exam_cards extends Activity implements View.OnClickListener{
             selectButton(4);
             if (Correct[i].equals("D")) {
                 Score[i] = 1;
-                Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "Clicked Correctly", Toast.LENGTH_SHORT).show();
             } else {
                 Score[i] = 0;
-                Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Clicked Wrongly", Toast.LENGTH_SHORT).show();
             }
         }
         }
@@ -321,7 +322,6 @@ public class Exam_cards extends Activity implements View.OnClickListener{
 
 
            }
-
            @Override
            public void onFinish() {
                 Intent intent = new Intent(getApplicationContext(),ExamResult.class);
